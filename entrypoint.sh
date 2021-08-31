@@ -34,5 +34,6 @@ else
     -Dsonar.projectBaseDir=${INPUT_PROJECTBASEDIR} \
     -Dsonar.login=${INPUT_LOGIN} \
     -Dsonar.password=${SONAR_PASSWORD} \
-    -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
+    -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info \
+    -Dsonar.genericcoverage.unitTestReportPaths=test-report.xml
 fi
